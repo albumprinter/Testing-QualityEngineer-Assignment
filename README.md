@@ -13,7 +13,7 @@ Giving the shipping cost information in the json file:
  * We have 3 shipping methods, DHL, Post NL and FedEx. 
  * Base price is the one time price for shipping the package.
  * Shipping Rate is the shipping cost per kilogram(only accept integer, decimals need to be rounded up, for example 1.85kg should be treaded as 2kg)
- * Max weight is the maximum weight this shipping method can accept
+ * Max weight is the maximum weight (in kilogram) this shipping method can accept
 
 Create an application to calculate the shipping cost for the package:
  * The weight in gram of the package as input, 
