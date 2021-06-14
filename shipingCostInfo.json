@@ -1,0 +1,22 @@
+{
+	"shippingCostInfo": [
+		{
+			"shippingMethod": "DHL",
+			"basePrice": "4.5",
+			"shippingRate": "5.5",
+			"maxWeight": "10"
+		},
+		{
+			"shippingMethod": "Post NL",
+			"basePrice": "3.5",
+			"shippingRate": "2.5",
+			"maxWeight": "30"
+		},
+		{
+			"shippingMethod": "FedEx",
+			"basePrice": "5.5",
+			"shippingRate": "6.5",
+			"maxWeight": "20"
+		}
+	]
+}
