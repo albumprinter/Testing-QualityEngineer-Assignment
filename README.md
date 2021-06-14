@@ -9,8 +9,14 @@ We value _simple_ more highly than _complex_, _working_ is better than _nice_. R
 
 ## Assignment
 
+Giving the shipping cost information in the json file:
+ * We have 3 shipping methods, DHL, Post NL and FedEx. 
+ * Base price is the one time price for shipping the package.
+ * Shipping Rate is the shipping cost per kilogram(only accept integer, decimals need to be rounded up, for example 1.85kg should be treaded as 2kg)
+ * Max weight is the maximum weight this shipping method can accept
+
 Create an application to calculate the shipping cost for the package:
- * The weight of the package as input
+ * The weight in gram of the package as input, 
  * First give the suggestion for potential shipping methods, display the user the cost for each available shipping methods and the cheapest option
  * User type the selected shipping method
  * Display the shipping cost to the user
