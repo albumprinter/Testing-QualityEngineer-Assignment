@@ -1,0 +1,56 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iws
+*.iml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+src/main/java/com/albelli/scenariorunner/runners/cucumber/
+ui/
+src/test/resources/lib
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+## Plugin-specific files:
+ 
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+order-api-client/bin/
+
+#Gradle
+.gradle/
+build/
+gradle/
+debug.log
+bin/debug.log
+
+#Cake
+tools/

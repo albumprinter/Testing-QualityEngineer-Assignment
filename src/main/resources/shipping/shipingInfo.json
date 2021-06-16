@@ -1,0 +1,7 @@
+{
+  "shippingCostInfo": {
+    "basePrice": "3",
+    "rate": "5"
+  },
+  "weightLimitation": 10
+}
