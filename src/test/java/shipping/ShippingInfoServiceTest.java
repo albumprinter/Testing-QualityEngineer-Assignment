@@ -12,13 +12,13 @@ import java.io.FileNotFoundException;
 
 import static org.mockito.Mockito.when;
 
-class ShippingCalculatorTest {
+class ShippingInfoServiceTest {
 
     @Mock
     ShippingInfoService service;
 
     @Test
-    public void ShippingCalculatorTest() throws FileNotFoundException {
+    public void getShippingInfoTest() throws FileNotFoundException {
         // Arrange
         ShippingCostInfo mockShippingCostInfo = new ShippingCostInfo();
         service = Mockito.mock(ShippingInfoService.class);
