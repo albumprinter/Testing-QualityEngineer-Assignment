@@ -12,7 +12,7 @@ import java.io.FileReader;
 public class ShippingInfoService {
     public ShippingInfoModel getShippingInfo() throws FileNotFoundException {
         Gson gson = new Gson();
-        JsonReader reader = new JsonReader(new FileReader("C:\\myproject\\Testing-QualityEngineer-Assignment\\src\\main\\resources\\shipping\\shipingInfo.json"));
+        JsonReader reader = new JsonReader(new FileReader(getClass().getClassLoader().getResource("shipping/shipingInfo.json").getFile()));
         ShippingInfoModel shippingInfo = gson.fromJson(reader, ShippingInfoModel.class);
         return shippingInfo;
     }

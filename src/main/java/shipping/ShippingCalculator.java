@@ -15,11 +15,10 @@ public class ShippingCalculator {
         try{
             int cost = service.calculateShippingCost(weight);
             System.out.println(String.format("Shipping cost is: %d", cost));
-        }catch (Exception e) {
+        } catch (InvalidWeightException e){
+            System.out.println(String.format("InvalidWeightException occurs: %s", e.getMessage()));
+        } catch (Exception e) {
             System.out.println(String.format("Exception occurs: %s", e.getMessage()));
         }
-//        catch (InvalidWeightException e){
-//            System.out.println(String.format("InvalidWeightException occurs: %s", e.getMessage()));
-//        }
     }
 }
